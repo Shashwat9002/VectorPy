@@ -1,9 +1,3 @@
-import sys
-import os
-
-# Add Vectorpy to sys.path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 # Now import from Vectorpy
 from Vectorpy.main import Vector  # Importing the class/function from main.py
 import pytest
