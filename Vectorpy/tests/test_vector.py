@@ -1,4 +1,5 @@
-# Now import from Vectorpy
+# This is a test file for the Vector class in the Vectorpy module.
+# It contains unit tests for various vector operations.
 from Vectorpy.main import Vector  # Importing the class/function from main.py
 import pytest
 
