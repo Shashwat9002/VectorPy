@@ -1,6 +1,4 @@
 import math
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 class Vector:
     """A class to represent 2D/3D vectors and perform operations on them."""
@@ -70,6 +68,8 @@ class Vector:
 def plot_vectors(vectors, colors=None, labels=None):
     """Visualize 3D vectors with an enhanced, high-resolution UI."""
     
+    import matplotlib.pyplot as plt
+
     # High-resolution settings
     fig = plt.figure(figsize=(10, 8), dpi=250)  # High DPI for clarity
     ax = fig.add_subplot(111, projection='3d', facecolor='black')  # Dark mode
